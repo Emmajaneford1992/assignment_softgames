@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://emmajaneford1992.github.io/assignment_softgames/",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
 
   },
   "devDependencies": {
