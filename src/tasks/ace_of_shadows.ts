@@ -11,7 +11,7 @@ export class AceOfShadows {
         this.app = app;
         this.images = [];
         for(let i = 1; i < 145; i++){
-            this.images.push({ alias: 'image'+i, src: '/assets/images/ace_of_shadows/'+i+'.png' })
+            this.images.push({ alias: 'image'+i, src: './assets/images/ace_of_shadows/'+i+'.png' })
         }
     }
 

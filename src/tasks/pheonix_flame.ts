@@ -13,9 +13,9 @@ export class PhoenixFlame {
   constructor(app: Application) {
     this.app = app;
     this.images = [
-      { alias: 'flame1', src: '/assets/images/pheonix_flame/flame0.png' },
-      { alias: 'flame2', src: '/assets/images/pheonix_flame/flame1.png' },
-      { alias: 'displacement', src: '/assets/images/pheonix_flame/displacement_map.jpg' } 
+      { alias: 'flame1', src: './assets/images/pheonix_flame/flame0.png' },
+      { alias: 'flame2', src: './assets/images/pheonix_flame/flame1.png' },
+      { alias: 'displacement', src: './assets/images/pheonix_flame/displacement_map.jpg' } 
     ];
     this.textureSize  = 400
   }

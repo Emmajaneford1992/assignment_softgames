@@ -19,7 +19,7 @@ export class MagicWords {
     this.assignedImgNums = [];
     this.images = [];
     for(let i = 0; i < 8; i++){
-      this.images.push({ alias: 'image'+i, src: '/assets/images/magic_words/image'+i+'.png' })
+      this.images.push({ alias: 'image'+i, src: './assets/images/magic_words/image'+i+'.png' })
     }
     this.numOfSprites = 6
   }
