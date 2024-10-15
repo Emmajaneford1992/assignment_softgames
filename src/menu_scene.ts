@@ -34,8 +34,8 @@ export class MenuScene {
   private createMenuButton(textStr: string, y: number, onClick: () => void): Graphics {
     const button = new Graphics()
       .beginFill(0xffffff)
-      .drawRoundedRect(0, 0, 400, 80, 15) 
-      .endFill(); 
+      .roundRect(0, 0, 400, 80, 15) 
+      .fill(); 
 
     button.x = this.app.screen.width / 2 - button.width / 2;
     button.y = y;
